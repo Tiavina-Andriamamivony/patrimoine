@@ -12,5 +12,24 @@ public class ValeurMonetaire {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
+    public ValeurMonetaire(Double valeur, Devise devise) {
+        this.valeur = valeur;
+        this.devise = devise;
+    }
 
+    public Double getValeur() {
+        return valeur;
+    }
+
+    public void setValeur(Double valeur) {
+        this.valeur = valeur;
+    }
+
+    public Devise getDevise() {
+        return devise;
+    }
+
+    public void setDevise(Devise devise) {
+        this.devise = devise;
+    }
 }
