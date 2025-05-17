@@ -31,8 +31,6 @@ public non-sealed class Objet extends Possession{
 
         for(int i = 0; i < differenceYear; i++){
             result = result -(result*(tauxAmmortissement))/100;
-            System.out.println(result);
-            System.out.println((this.getValeurs().getValeur()*(tauxAmmortissement))/100);
         }
         return result;
     }

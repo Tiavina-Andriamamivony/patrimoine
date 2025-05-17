@@ -4,7 +4,7 @@ package org.prog.models;
  * @Description Une possession est une chose que l'on possède logique. Et une possession a une valeur et un nom(?)
  * @Source page 2 ligne 14-23
  */
-public sealed class  Possession permits ArgentEspece,Compte, Objet {
+public sealed class  Possession permits ArgentEspece,Compte, Objet, Depense {
     private Utilisateur utilisateur;
 
     /*

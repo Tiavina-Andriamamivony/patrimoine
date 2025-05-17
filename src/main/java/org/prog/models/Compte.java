@@ -17,6 +17,18 @@ public non-sealed class Compte extends Possession{
         this.dateOuverture = dateOuverture;
     }
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public LocalDate getDateOuverture() {
+        return dateOuverture;
+    }
+
+    public void setDateOuverture(LocalDate dateOuverture) {
+        this.dateOuverture = dateOuverture;
+    }
+
     public Compte() {
     }
 

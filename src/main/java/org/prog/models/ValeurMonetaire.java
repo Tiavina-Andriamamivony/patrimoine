@@ -8,6 +8,14 @@ public class ValeurMonetaire {
     private Double valeur;
     private Devise devise;
 
+    @Override
+    public String toString() {
+        return "ValeurMonetaire{" +
+                "valeur=" + valeur +
+                ", devise=" + devise +
+                '}';
+    }
+
     public Double TransitionMonetaire(Devise deviseVise) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
