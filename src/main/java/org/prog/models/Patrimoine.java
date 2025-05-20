@@ -1,15 +1,16 @@
 package org.prog.models;
 
-import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
-/**
- * @Description
- * Un patrimoine appartient à une personne
- * Un patrimoine est  composé des possessions
- *
- * @Source pagte 2 ligne 12-13
- */
-public class Patrimoine {
-    private  Utilisateur utilisateur;
+import java.util.List;
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
+@ToString
+public  class  Patrimoine {
     private List<Possession> possessions;
+
 }
